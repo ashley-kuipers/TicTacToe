@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
+// explicit declaration of functions
 int printGame(char currentGame[3][3]);
 int getCompMove(char currentGame[3][3]);
 int checkUserWin(char currentGame[3][3]);
